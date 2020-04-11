@@ -1,0 +1,42 @@
+p1 {
+    color: blue;
+    font-size:150px;
+}
+p2 {
+    color: red;
+    font-size: 150px;
+}
+p3 {
+    color: rgb(255, 157, 0);
+    font-size: 150px;
+}
+p4 {
+    color: rgba(0, 89, 255, 0.848);
+    font-size: 150px;
+}
+p5 {
+    color: green;
+    font-size: 150px;
+}
+p6 {
+    color: red;
+    font-size: 150px;
+}
+span1 {
+    color:blue;
+}
+span2 {
+    color:red;
+}
+span3 {
+    color:orange;
+}
+span4 {
+    color:blue;
+}
+span5 {
+    color:green;
+}
+span6 {
+    color:red;
+}
