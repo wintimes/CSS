@@ -1,0 +1,24 @@
+#syl {
+    color: yellow;
+    font-size: 10px;
+}
+
+.box {
+    color: green;
+    font-size: 60px;
+}
+
+div {
+    color: red !important;
+    font-size: 60px !important;
+}
+
+.box2 {
+    font-size: 100px;
+    color: blue;
+}
+
+.box3 {
+    font-size: 60px;
+    color: pink;
+}

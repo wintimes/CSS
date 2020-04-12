@@ -1,0 +1,16 @@
+/* L-V-H-A */
+a {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: yellow;
+}
+a:hover {
+    color: blue;
+    text-decoration: line-through;
+}
+a:active {
+    color: pink;
+}
+

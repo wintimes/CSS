@@ -1,0 +1,37 @@
+#father #son {
+    color: red;
+}
+#father p.two {
+    color: yellow;
+}
+p {
+    color: orange;
+}
+#father {
+    color:pink;
+}
+div p {
+    color: red;
+}
+#father1 {
+    color: red;
+}
+p.two {
+    color: deeppink;
+}
+.two1 {
+   color: red;
+}
+.one1 {
+    color: blue;
+}
+#syl {
+    color: yellow;
+}
+.box {
+    color: green;
+}
+
+div{
+    color: red !important;
+}
