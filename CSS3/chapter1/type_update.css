@@ -1,0 +1,49 @@
+.div1 {
+    border: 2px solid;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    background-image: url("image.png");
+    background-size: 100% 100%;
+         /* 如需要查看其它效果，可将注释中的内容替换上面的 background-size */
+        /* background-size:100px 200px; */
+        /* background-size:50% 50%; */
+        /* background-size:cover; */
+        /* background-size:contain; */
+    background-repeat: no-repeat;
+}
+.div2 {
+    border: 2px solid;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-origin:border-box;
+}
+.div3 {
+    border: 2px solid;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-origin:content-box;
+}
+h3 {
+    width: 200px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    margin: auto;
+    background-color: pink;
+}
+h4 {
+    width: 200px;
+    height: 39px;
+    padding: 50px;
+    margin: 0;
+}
