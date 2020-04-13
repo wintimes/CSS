@@ -1,0 +1,58 @@
+      .div1 {
+        margin: 50px;
+        width: 200px;
+        height: 200px;
+        background-color: lightgreen;
+        opacity: 0.5;
+        transition: 2s ease-in-out;
+        /*transition-property 默认为 all，所以将应用到 width 和 height 上*/
+      }
+      .div1:hover {
+          width: 250px;
+          height: 250px;
+          opacity: 1;
+      }
+      .div2 {
+          margin: 50px;
+          width: 200px;
+          height: 200px;
+          background-color: cyan;
+          opacity: 0.5;
+          transition: height 2s cubic-bezier(0.25, 0.1,0.25, 1);
+           /*transition-property 只指定了 height，所以 width 的改变不会使用过渡效果;
+           cubic-bezier(0.25,0.1,0.25,1) 相当于 ease，慢速开始，然后变快，慢速结束。*/
+      }
+     .div2:hover {
+        width: 400px;
+        height: 400px;
+        opacity: 1;
+     }
+     .div3 {
+         margin: 50px;
+         width: 200px;
+         height: 200px;
+         background-color: orange;
+         opacity: 0.5;
+         transition: 2s ease-in-out 2s;
+          /*transition-delay 设置为 2s，
+          当鼠标移到该盒子上，过渡效果将会延迟 2s 开始、结束*/
+     }
+     .div3:hover{
+         width: 400px;
+         height: 400px;
+         opacity: 1;
+     }
+     .div4 {
+         margin: 50px;
+         width: 200px;
+         height: 200px;
+         background-color: grey;
+         opacity: 0.5;
+         transition: ;
+         /*所有属性使用默认值，transition-timing-function 的默认值为 0s，所以 div4 无过渡效果*/
+     }
+     .div4:hover{
+         width: 400px;
+         height: 400px;
+         opacity: 1;
+     }

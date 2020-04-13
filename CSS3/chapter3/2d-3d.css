@@ -1,0 +1,16 @@
+.div {
+    width: 300px;
+    height: 300px;
+    margin: 200px;
+    border: 2px solid;
+    text-align: center;
+}
+.div1 div{
+    width: 300px;
+    height: 300px;
+    background: lightgreen;
+    transform:rotate(45deg);
+}
+.transform-origin div {
+    transform-origin: 10% 10%;
+}
