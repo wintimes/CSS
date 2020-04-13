@@ -1,0 +1,43 @@
+.shadow1 {
+    float: left;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #eee8cd;
+    box-shadow: 0 0 0 10px #000;
+}
+.shadow2 {
+    float: left;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #eee8cd;
+    box-shadow: 20px 20px 10px #000;
+}
+.shadow3 {
+    float: left;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #eee8cd;
+    box-shadow: -20px -20px 10px #000;
+}
+.shadow4 {
+    float: left;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #eee8cd;
+    box-shadow: 0 0 100px #000 inset;
+}
+.shadow5 {
+    float: left;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #eee8cd;
+    box-shadow: -40px 0 100px red,
+                0 -40px 100px #000,
+                40px 0 100px blue,
+                0 40px 100px yellow;
+}

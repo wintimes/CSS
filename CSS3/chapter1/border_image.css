@@ -1,0 +1,8 @@
+.div1 {
+    border: 40px solid;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border-image: url("image.png") 30 30 stretch;
+}
