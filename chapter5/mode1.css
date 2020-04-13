@@ -1,0 +1,22 @@
+.box {
+    width: 600px;
+    height:300px;
+    border: 2px dashed green;
+}
+.box1,
+.box2,
+.box3 {
+    width: 200px;
+    height: 100px;
+}
+.box1 {
+    background-color: red;
+}
+.box2 {
+    background-color: yellow;
+    float: right;
+    float: left;
+}
+.box3 {
+    background-color: blue;
+}
