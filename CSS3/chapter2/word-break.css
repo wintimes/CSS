@@ -1,0 +1,19 @@
+.item1 {
+    margin: 20px;
+    border: 1px solid;
+    width: 100px;
+    word-break: normal;
+
+}
+.item2{
+    margin: 20px;
+    border: 1px solid;
+    width: 100px;
+    word-break: break-all;
+}
+.item3{
+    margin: 20px;
+    border: 1px solid;
+    width: 100px;
+    word-break: keep-all;
+}

@@ -1,0 +1,20 @@
+.shadow1 {
+    margin: 50px;
+    color:green;
+    text-shadow: 20px 20px 3px rgb(226, 154, 154);
+}
+.shadow2{
+    margin: 50px;
+    color: green;
+    text-shadow: -20px -20px 7px #000;
+}
+.shadow3{
+    margin: 50px;
+    color: green;
+    text-shadow: 0 0 50px #000;
+}
+.shadow4 {
+    margin: 50px;
+    color: green;
+    text-shadow: -40 0 10px red,0 -40px 10px #000,40px 0 10px blue, 0 40px 10px yellow;
+}

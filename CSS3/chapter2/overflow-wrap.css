@@ -1,0 +1,12 @@
+.div1{
+    margin: 50px;
+    border: 1px solid;
+    width: 100px;
+    overflow-wrap:break-word;
+}
+.div2{
+    margin: 50px;
+    border: 1px solid;
+    width: 100px;
+    overflow-wrap: normal;
+}
