@@ -33,17 +33,37 @@
     background-repeat: no-repeat;
     background-origin:content-box;
 }
-h3 {
+.div4 {
+    border: 2px solid;
+    margin: 50px;
     width: 200px;
+    height: 200px;
+    padding: 50px;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+.div5 {
+    border: 2px solid;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+h3 {
+    width: 300px;
     height: 39px;
     line-height: 39px;
     text-align: center;
-    margin: auto;
+    margin-left: 50px;
     background-color: pink;
 }
 h4 {
-    width: 200px;
+    width: 300px;
     height: 39px;
-    padding: 50px;
+    padding-left: 50px;
     margin: 0;
 }
