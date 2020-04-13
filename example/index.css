@@ -107,3 +107,32 @@ a {
     background: #0266a3;
     color: #fff;
 }
+/* 宠物市场 */
+.mar {
+    width: 970px;
+    height: 210px;
+    margin: 0 auto;
+}
+.mar-left{
+    height: 210px;
+    width: 200px;
+    background: #ebf0f6;
+}
+.mar-title {
+    height: 30px;
+    background: #0266a3;
+    line-height: 30px;
+    color: #fff;
+    padding-left: 20px;
+}
+.mar-list {
+    margin-top:5px;
+}
+.mar-list li {
+    height: 28px;
+    line-height: 28px;
+    padding-left: 39px;
+}
+.mar-list li.icon {
+    background: url("../images/icon_1.png") no-repeat 9px;
+}
