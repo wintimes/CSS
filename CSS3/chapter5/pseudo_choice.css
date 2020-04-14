@@ -1,0 +1,85 @@
+/* E:root */
+:root {
+    background: lightgreen;
+}
+   /*
+    与下列样式效果相同
+    html{
+        background: lightgreen;
+    }
+    */
+/* E:nth-child() */
+.bgc0:nth-child(3){
+    background-color:red;
+}
+/* 当取值为表达式时，
+变量只能使用 n，并且 n 从 0 开始依次加一，
+即取值为表达式时，
+选择器选择多个值，
+[n=0,1,2,3...]。当计算结果小于等于 0 或 大于子元素总数时，不选取元素。 */
+.bgc4:nth-child(2n + 1){
+    background-color:blue;
+}
+/* 使用表达式时，
+CSS3 提供了两个特殊值：
+odd 和 even。odd 相当于 2n+1，even 相当于 2n。 */
+
+/* E:nth-last-child(n)  */
+.bgc:nth-last-child(2n + 1){
+    background-color: lightcoral;
+}
+/* 该元素选择的是与 E 相同类型的兄弟元素， */
+.bgc1:nth-of-type(2n + 1){
+    background-color: lightcoral;
+}
+/* 与 E:nth-last-child(n)类似，从后开始 */
+.bgc2:nth-last-of-type(2n + 1){
+    background-color: lightcoral;
+}
+.bgc3:nth-last-of-type(2n + 1){
+    background-color: lightcoral;
+}
+.bgc7:last-child {
+        background: red;
+      }
+.bgc8:first-of-type{
+    background-color: lightcoral;
+}
+.bgc9:last-of-type {
+    background-color: lightcoral;
+}
+.div1 {
+    border: 2px solid;
+}
+.div2 {
+    margin-top:10px;
+    border: 2px solid;
+}
+/* 父元素中唯一的<p class:bgc10>才会被应用 */
+.bgc10:only-of-type {
+    background-color: lightcoral;
+}
+.bgc11:empty {
+    width: 1000px;
+    height: 20px;
+    background-color: lightpink;
+}
+:target{
+    border: 2px solid;
+    background-color: yellow;
+}
+.demo {
+    color: yellow;
+}
+p:not(.demo) {
+    color: red;
+}
+input:enabled {
+    background:lightpink;
+}
+input:disabled {
+    background: lightblue;
+}
+input[type="checkbox"]:checked {
+    margin: 100px;
+}

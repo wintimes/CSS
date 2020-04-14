@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="pseudo_choice.css">
+    </head>
+    <body>
+        <h3> E:nth-child(n)子元素选择器</h3>
+        <div>
+            <p class="bgc0">1</p>
+            <a href="">2</a>
+            <p class="bgc0">3</p>
+            <p class="bgc0">4</p>
+        </div>
+        <h3> E:nth-child(2n+1)子元素选择器</h3>
+        <div>
+            <p class="bgc4">1</p>
+            <a href="">2</a>
+            <p class="bgc4">3</p>
+            <p class="bgc4">4</p>
+        </div>
+        <h3> E:nth-last-child(2n+1)子元素选择器</h3>
+        <div>
+            <p class="bgc">1</p>
+            <p class="bgc">2</p>
+            <a href="">3</a>
+            <p class="bgc">4</p>
+            <p class="bgc">5</p>
+            <p class="bgc">6</p>
+        </div>
+        <h3> E:nth-of-type() 子元素选择器</h3>
+        <div>
+            <p class="bgc1">1th of ele,1th of p</p>
+            <p class="bgc1">2th of ele,2th of p</p>
+            <a href="https://www.shiyanlou.com">3th of ele,1th of a</a>
+            <p class="bgc1">4th of ele,3th of p</p>
+            <p class="bgc1">5th of ele,4th of p</p>
+            <p class="bgc1">6th of ele,5th of p</p>
+        </div>
+        <h3> E:nth-last-of-type(n) </h3>
+        <div>
+            <p class="bgc2">1th of ele,1th of p</p>
+            <p class="bgc2">2th of ele,2th of p</p>
+            <a href="https://www.shiyanlou.com">3th of ele,1th of a</a>
+            <p class="bgc2">4th of ele,3th of p</p>
+            <p class="bgc2">5th of ele,4th of p</p>
+            <p class="bgc2">6th of ele,5th of p</p>
+            <p class="bgc2">7th of ele,6th of p</p>
+        </div>
+        <h3> E:last-child  </h3>
+        <div>
+            <p class="bgc7">wo</p>
+            <p class="bgc7">ai</p>
+            <p class="bgc7">shi</p>
+            <p class="bgc7">yan</p>
+            <p class="bgc7">lou</p>
+        </div>
+        <h3> E:last-child 不会选择 </h3>
+        <div>
+            <p class="bgc7">wo</p>
+            <p class="bgc7">ai</p>
+            <p class="bgc7">shi</p>
+            <p class="bgc7">yan</p>
+            <p class="bgc7">lou</p>
+            <span>wo bu hui bei xuan zhong</span>
+        </div>
+        <h3> E:first-of-type  </h3>
+        <div>
+            <p class="bgc8">wo</p>
+            <p class="bgc8">ai</p>
+            <p class="bgc8">shi</p>
+            <p class="bgc8">yan</p>
+            <p class="bgc8">lou</p>
+            <span>wo bu hui bei xuan zhong</span>
+        </div>
+        <h3> E:last-of-type  </h3>
+        <div>
+            <p class="bgc9">wo</p>
+            <p class="bgc9">ai</p>
+            <p class="bgc9">shi</p>
+            <p class="bgc9">yan</p>
+            <p class="bgc9">lou</p>
+            <span>wo bu hui bei xuan zhong</span>
+        </div>
+       <h3> E:only-child  </h3>
+            <div class="div1">
+            <p class="bgc10">hello world</p>
+            </div>
+            <div class="div2">
+            <p class="bgc10">hello shiyanlou</p>
+            <span>wo ai xue xi</span>
+            </div>
+        <h3> E:only-of-type </h3>
+            <div class="div1">
+            <p class="bgc10">hello world</p>
+            </div>
+            <div class="div2">
+            <p class="bgc10">hello shiyanlou</p>
+            <span>wo ai xue xi</span>
+            </div>
+        <h3> E:empty</h3>
+            <div>
+            <p class="bgc11">hello world</p>
+            <p class="bgc11"></p>
+            <p class="bgc11">hello shi yan lou</p>
+            </div>
+        <h3>E:target </h3>
+            <a href="#p1">Jump to p1</a></br />
+            <a href="#p2">Jump to p2</a></br />
+            <p id="p1">p1</p>
+            <p id="p2">p2</p>
+        <h3>E:not(s) </h3>
+            <p class="demo">hello world</p>
+            <p>hello shiyanlou</p>
+            <span>hello</span>
+        <h3>E:enabled & E:disabled </h3>
+            <input
+                type="text"
+                name="test1"
+                placeholder="disabled"
+                disabled="true"
+            /><br />
+            <input type="text" name="test2" placeholder="enable" />
+            <h3>E:checked </h3>
+            <input type="checkbox" name="checkbox" />
+    </body>
+
+    </body>
+</html>

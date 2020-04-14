@@ -1,0 +1,9 @@
+a[title^="test"]{
+    background: red;
+}
+b[title$="test"]{
+    background: red;
+}
+b1[title*="test"]{
+    background: red;
+}
