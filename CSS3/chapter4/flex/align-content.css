@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /* align-content属性定义了多根轴线的对齐方式。如果项目只有一根轴线，
+    该属性不起作用。，align-content 有以下六个值：
+    flex-start ：与交叉轴的起点对齐。
+    flex-end ：与交叉轴的终点对齐。
+    center ：与交叉轴的中点对齐。
+    space-between ：与交叉轴两端对齐，轴线之间的间隔平均分布。
+    space-around ：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。
+    stretch：轴线占满整个交叉轴。 */
+
+    justify-content: center;
+    width: 200px;
+    height: 600px;
+    background-color: lightblue;
+}
+.item {
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

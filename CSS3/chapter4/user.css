@@ -1,0 +1,46 @@
+.box1 {
+    overflow: auto;
+    border: 2px solid;
+    width: 300px;
+    height: 250px;
+    resize: both;
+/* resize属性：
+    none ：用户无法调整元素尺寸。
+    both ：用户可以调整元素的高度和宽度。
+    horizontal ：用户可以调整元素的宽度。
+    vertical ：用户可以调整元素的高度。 */
+
+}
+.container {
+    width: 660px;
+    height: 310px;
+    display: flex;
+    flex-flow:row wrap;
+    border: 2px solid;
+}
+/* box-sizing
+
+属性 box-sizing 和盒子模型有关，
+它允许用户以特定的方式定义匹配某个区域的特定元素。box-sizing 有以下三个值：
+
+content-box ：（默认）设置属性为该值时，
+设定的高度和宽度值只应用到 content 内容上，
+不包括 padding 和 border。
+border-box ：设置属性为该值时，
+设定的高度和宽度应用到 content + padding + border 上，
+也就是说如果要得到 content 的宽高需要减去 padding 和 border。
+inherit ：继承父元素的 box-sizing 取值。 */
+
+.content-box {
+    box-sizing: border-box;
+    border: 30px solid lightblue;
+    width: 300px;
+    height: 250px;
+}
+.border-box {
+    box-sizing: border-box;
+    border: 30px solid lightcoral;
+    margin-top: 30px;
+    width: 300px;
+    height: 250px;
+}

@@ -1,0 +1,20 @@
+@media screen and (min-width:480px){
+    .box1 {
+        background-color: lightblue;
+    }
+}
+@media screen and (min-width:720px){
+    .box2 {
+        background-color: lightgreen;
+    }
+}
+@media screen and (max-width: 400px) {
+    .box3 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+    .box4 {
+    width: 400px;
+  }
+}
