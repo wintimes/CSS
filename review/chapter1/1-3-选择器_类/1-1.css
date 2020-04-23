@@ -1,0 +1,46 @@
+span {
+    color :orange;
+    font-size: 30px
+}
+#color1 {
+    color: #008000;
+}
+#color2 {
+    color:red;
+}
+.active{
+    color: grey;
+}
+.title{
+    font-size: 30px;
+}
+/*
+    .class{
+
+        }
+ */
+/*
+#id {
+    样式
+    }
+ */
+/* css 样式: 选择符和声明构成
+    选择符：span
+    声明: 属性和值来构成
+        属性: color
+        值 : orange
+*/
+/*
+
+ css:选择器
+        一、基础选择器
+            - 标签（元素）选择器
+            - 类（class）选择器
+            - id（身份证号）选择器
+        二、高级选择器
+            - 后代选择器
+            - 子代选择器
+            - 组合选择器
+            - 交集选择器
+            - 伪类选择器
+ */

@@ -1,0 +1,41 @@
+/*
+font-family中，需要注意的是，
+    1-不同电脑操作系统的字体库
+    2- 可能存在没有的情况，所以要有备选的情况，
+    3- 可以参考小米商城的网站代码。
+    4- 其中需要注意：字体代码从左到右一次解析。
+ Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,
+*/
+
+/*
+    font-size: 16px; 默认
+ */
+
+/*
+    font-color :
+        1- rgb( , , , )
+        2- rgba(255, 0, 0, .5) 透明度
+        2- 英文单词
+        3- 16进制
+             1 2 3 4 5 6 7 8 9 10
+             1 2 3 4 5 6 7 8 9  a b c d e f
+
+             #ff6700
+
+             ff             67             00
+
+             15 * 16 + 15   6 * 16 + 7     0 * 16 + 0
+             255            103            0
+
+*/
+
+/*
+    font-style: normal;
+    italic 斜体。
+ */
+
+ /*
+    font-weight: normal;
+        通常是数值表示法： 100-900 / 默认400
+        都是由ui设计师给的原型稿来进行的设计。
+  */

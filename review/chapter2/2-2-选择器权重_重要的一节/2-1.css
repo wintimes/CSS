@@ -1,0 +1,41 @@
+/* 0 0 1 */
+p {
+    color: gray;
+}
+/* 0 0 3 */
+/* div div p {
+    color: yellow;
+} */
+/* 0 1 0 */
+/* .active {
+    color: purple;
+} */
+/* 0 1 1 */
+/* div .active {
+    color:black;
+} */
+/* 0 1 2 */
+/* div div .active {
+    color: blue;
+} */
+/* 1 2 0 */
+/* .wrap1 #box2 .active{
+    color:green;
+} */
+/* 2 0 1 */
+/* #box1 #box2 p {
+    color: lightcoral;
+} */
+
+
+/* 选中了标签，才会被继承，如果没有继承， 权重就忽略为 0 */
+#box1 #box2 #box3 {
+    color: aqua;
+}
+/*
+    关于选择器的一些想法：
+        1- 首先，对网页整体的样式要先 进行切图，并让样式先进性继承
+        2- 然后再去对具体的标签样式进行优化
+        3- 然后再去检测未匹配到想要样式的权重
+        4- 最终实现想要达到的样式
+ */

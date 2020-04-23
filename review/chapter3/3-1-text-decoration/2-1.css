@@ -1,0 +1,15 @@
+/*
+font-family中，需要注意的是，
+    1-不同电脑操作系统的字体库
+    2- 可能存在没有的情况，所以要有备选的情况，
+    3- 可以参考小米商城的网站代码。
+    4- 其中需要注意：字体代码从左到右一次解析。
+ Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,
+*/
+/*
+    text-decoration:
+         overline 上划线
+         underline 下划线
+         line-through 删除线
+
+ */

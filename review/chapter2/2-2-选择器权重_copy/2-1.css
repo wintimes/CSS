@@ -1,0 +1,28 @@
+/* 0 0 1 */
+p {
+    color: gray;
+}
+/* 0 0 3 */
+div div p {
+    color: yellow;
+}
+/* 0 1 0 */
+.active {
+    color: purple;
+}
+/* 0 1 1 */
+div .active {
+    color:black;
+}
+/* 0 1 2 */
+div div .active {
+    color: blue;
+}
+/* 1 2 0 */
+.wrap1 #box2 .active{
+    color:green;
+}
+/* 2 0 1 */
+#box1 #box2 p {
+    color: lightcoral;
+}

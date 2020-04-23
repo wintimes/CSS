@@ -1,0 +1,30 @@
+/*
+没有北方问过的样式
+ */
+a:link {
+    color: orange;
+}
+/* 访问过后的状态 */
+a:visited{
+    color:green;
+}
+/* 悬浮状态 */
+a:hover {
+    color: black;
+}
+a:active {
+    color: purple;
+}
+span {
+    color: grey;
+}
+
+span:hover {
+    color: orange;
+}
+div:hover {
+    background-color: greenyellow;
+}
+div:hover span{
+    color:white;
+}
