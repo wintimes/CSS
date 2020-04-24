@@ -1,0 +1,25 @@
+div {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    /* display:none;  元素隐藏*/
+}
+p {
+    background-color: green;
+}
+a,span {
+    background-color: purple;
+    width: 100px;
+    /* height: 30px; */
+    display: inline-block;
+    /* 分别通过
+        text-align: 水平居中
+        line-height: 垂直居中
+    */
+    text-align: center;
+    line-height: 40px;
+}
+input {
+    width: 100px;
+    height: 50px;
+}

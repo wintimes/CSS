@@ -1,0 +1,19 @@
+p {
+    text-indent: 1em;
+    font-size: 20px;
+    /* 行高 */
+    line-height: 40px;
+    /* 文字间距 只对中文有效果 */
+    letter-spacing: 5px;
+    /* 英文单词之间的距离 */
+    word-spacing: 10px;
+}
+/*
+    text-indent: 首行缩进
+    em:一个字的大小
+    line-height:
+ */
+ div {
+     line-height: 40px;
+     background-color: red;
+ }
