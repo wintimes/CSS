@@ -1,0 +1,23 @@
+span {
+    background-color: red;
+}
+.span1 {
+    margin-right: 20px;
+}
+.span2 {
+    margin-left: 100px;
+}
+div {
+    width: 200px;
+    height: 200px;
+}
+/* margin 垂直方向上，会出现外边距合并 */
+/* 外边距塌陷 */
+#box1 {
+    background-color: lightcoral;
+    margin-bottom: 20px;
+}
+#box2 {
+    background-color: lightcyan;
+    margin-top: 100px;
+}

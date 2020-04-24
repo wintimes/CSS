@@ -1,0 +1,18 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    padding: 50px;
+}
+/*
+padding
+    上 下 左 右
+    padding: 20px;
+    上下 左右
+    padding: 20px 40px;
+    上 左右 下
+    padding: 20px 30px 40px;
+    上 右 下 左
+    padding :10px 20px 30px 40px;
+
+ */

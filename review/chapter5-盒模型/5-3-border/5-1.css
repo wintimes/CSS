@@ -1,0 +1,38 @@
+.border {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-top-width:4px;
+    border-top-color: red;
+    border-top-style: solid;
+}
+/*
+    三要素
+        1- 粗细 border-width
+            上 右 下 左
+        2- 样式 border-style
+            solid
+            dotted
+            double
+            dashed
+        3- 颜色 border-color
+    按照方向来编写 border
+        border-top-width:4px;
+        border-top-color: red;
+        border-top-style: solid;
+ */
+input {
+    /* border: none; */
+    border: 0;
+    outline: none;
+}
+.username {
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid #666;
+}
+.username:hover {
+    border: 1px solid orange;
+}
