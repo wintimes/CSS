@@ -44,3 +44,11 @@ inherit ：继承父元素的 box-sizing 取值。 */
     width: 300px;
     height: 250px;
 }
+.box2 {
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    outline: 2px solid green;
+    outline-offset: 20px;
+}
