@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>相对定位</title>
+        <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
+        <link rel="stylesheet" type="text/css" href="main.css">
+
+    </head>
+    <body>
+        <!--
+            绝对定位：
+                特点:
+                    1.脱离标准文档流，不在页面占位置
+                    2.层级提高，压盖现象。
+                参考点:
+                    1- body是有8px的margin（reset掉）
+                    2- 单独给一个盒子设置绝对定位，
+                            以根元素页面左上角为参考点。
+                    3- 相对于最近的非static祖先元素定位，
+                        如果没有非static祖先元素，那么以页面
+                        根元素左上角进行定位。
+                子绝父相：（非常实用，实战）
+                    1- 祖先元素设置相对定位后，不脱离标准文档流，并且在文档中占据一定的
+                    位置。
+                    2- 子元素设置绝对定位后，根据祖先元素的左上角为参考点进行调整位置
+        -->
+        <div class="grandfather">
+            <div class="father">
+                <div class="one">One</div>
+                <div class="two">Two<a href="#">aaaaaa</a></div>
+                <div class="three">Three</div>
+            </div>
+        </div>
+
+    </body>
+</html>

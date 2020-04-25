@@ -1,0 +1,39 @@
+body{
+    border: 1px solid orange;
+}
+.grandfather{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    border: 1px solid purple;
+}
+.father{
+    /* position: relative;
+    top:30px;
+    left:60px; */
+    border: 1px solid black;
+    margin-left:40px;
+}
+.one, .two, .three {
+    width:200px;
+    height: 200px;
+    color:#fff;
+}
+
+div.one{
+    background-color: red;
+    position: absolute;
+    top:200px;
+    left: 200px;
+}
+
+div.two {
+    width: 400px;
+    background-color: green;
+    /* position: absolute; */
+}
+
+div.three {
+
+    background-color: blue;
+}
