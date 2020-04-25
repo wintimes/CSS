@@ -1,0 +1,33 @@
+div {
+    /* 浮动元素有收缩现象 */
+    width: 200px;
+    height: 200px;
+    color: #fff;
+}
+/*
+    标准文档流
+    从上往下，从左往右
+
+ */
+div.left{
+    background-color: lightcoral;
+    /* 脱标 */
+    float: left;
+}
+div.right{
+    background-color: black;
+    /* 浮动元素互相贴靠 */
+    float: left;
+}
+div.center {
+    background-color: yellow;
+    /* 浮动元素互相贴靠 */
+    float: left;
+}
+/*
+    浮动的现象：
+        1- 文字环绕
+        2- 脱离了标准的文档流
+        3- 浮动元素互相贴靠
+        4- 浮动元素有收缩
+ */

@@ -1,0 +1,8 @@
+.box img {
+    float:left;
+}
+.box p {
+    width: 200px;
+    height: inherit;
+    float:right;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>盒模型</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+
+    </head>
+    <body>
+        <!--
+            1- 给父元素设置固定高度
+                缺点：使用不灵活，后期不宜维护
+                应用：网页中盒子固定高度，比如固定的导航栏。
+            2- 内墙法
+                规则：在最后一个浮动元素的后面加上一个空的块级元素，并且设置该属性为 clear: both;
+                缺点：结构冗余。
+
+        重点：
+            3- 伪元素（选择器）清除
+            4- overflow:hidden；
+         -->
+            <div class="top_bar clearfix">
+                <div class="child1">son</div>
+                <div class="child2">son2</div>
+                <!-- <div class="clear"></div> -->
+            </div>
+            <div class="header">
+            </div>
+            <p>
+                <a href="#">百度一下</a>
+            </p>
+
+
+    </body>
+</html>
