@@ -1,0 +1,18 @@
+.box {
+    width:100px;
+    height: 100px;
+    background-color: red;
+    color: #fff;
+}
+.outer {
+    width: 500px;
+    height: 300px;
+    border: 1px solid green;
+    overflow: scroll;
+    padding-left: 200px;
+}
+#one {
+    position: fixed;
+    top:80px;
+    left:40px;
+}
