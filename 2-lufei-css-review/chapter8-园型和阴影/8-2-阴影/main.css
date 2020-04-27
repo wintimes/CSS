@@ -1,0 +1,12 @@
+.box {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 50px auto;
+    background-color: lightcoral;
+
+}
+.box:hover {
+    top:-3px;
+    box-shadow: 0 10px 10px #393333 ;
+}
