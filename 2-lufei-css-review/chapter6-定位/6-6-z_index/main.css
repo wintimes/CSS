@@ -1,0 +1,33 @@
+.a {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: lightcoral;
+    border: 3px solid black;
+    /*
+        z-index:auto ;
+        只能应用于在定位属性的元素当中。
+        定位的元素一定是大于没有定位的元素（在其之上）
+        父亲牛比儿子牛逼
+        跟随父级的z-index的值
+     */
+}
+.b {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: lightcoral;
+    border: 3px solid black;
+    top:-30px;
+    left: 50px;
+}
+.c {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: lightcoral;
+    border: 3px solid black;
+    top:-50px;
+    left: 100px;
+}
+
