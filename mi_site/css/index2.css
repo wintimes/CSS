@@ -1,0 +1,85 @@
+/* 导航栏实现 */
+.header {
+    height: 100px;
+
+}
+.header .site_logo {
+    float: left;
+    width:62px;
+    margin-top:22px;
+}
+.header .site_logo a{
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background: url('../images/logo.png') no-repeat 50% 50%;
+}
+.header .site_list {
+    float: left;
+    width: 850px;
+}
+.header .site_list ul {
+    width: 820px;
+    height: 88px;
+    padding:12px 0 0 30px;
+    font-size: 16px;
+}
+.header .site_list ul li {
+    float: left;
+}
+.header .site_list ul li a {
+    display: block;
+    /* a的高度24px  上26px 左右10px 下38px  上+行高(a)+下==88px*/
+    /* 目的就是使a 标签填充满高度 */
+    padding: 26px 10px 38px;
+    color: #333;
+}
+.header .site_list ul li a:hover {
+    color: #ff6700;
+}
+.header .site_search {
+    float: right;
+    width: 296px;
+    height: 50px;
+    margin-top: 25px;
+
+}
+.header .site_search form{
+    width: 296px;
+    height: 50px;
+    position: relative;
+}
+.header .site_search form .search_text {
+    /* 245px */
+    width: 223px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    padding: 0 10px;
+    float: left;
+}
+.header .site_search form .search_btn {
+    margin-left: -1px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+}
+.header .site_search form .search_word {
+    position: absolute;
+    top:15px;
+    right:60px;
+
+}
+.header .site_search form .search_word a {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0 5px;
+    color:#757575;
+    font-size: 12px;
+    background-color: #eee;
+}
+.header .site_search form .search_word a:hover {
+    color: #fff;
+    background-color: #ff6700; 
+}
