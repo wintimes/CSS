@@ -37,6 +37,19 @@
 .header .site_list ul li a:hover {
     color: #ff6700;
 }
+.header .site_list ul li.site_category {
+    position: relative;
+}
+.header .site_list ul li.site_category .category_list {
+    position: absolute;
+    top:88px;
+    left:-92px;
+    width:234px;
+    height: 460px;
+    background-color: rgba(0,0,0,0.6);
+ }
+
+
 .header .site_search {
     float: right;
     width: 296px;
@@ -81,5 +94,6 @@
 }
 .header .site_search form .search_word a:hover {
     color: #fff;
-    background-color: #ff6700; 
+    background-color: #ff6700;
 }
+/* 小米导航栏end */
