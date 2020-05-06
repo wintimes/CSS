@@ -1,13 +1,58 @@
 /* 小米站点内容start */
-.site_content .site_slider a {
+.site_content .site_slider{
+    position: relative;
+    z-index: 2;
+}
+.site_content .site_slider>a {
     display: block;
     width:1226px;
 }
-.site_content .site_slider a img {
+.site_content .site_slider>a img {
     width: 1226px;
 }
-
-
+.site_content .site_slider>span {
+    position: absolute;
+    width: 41px;
+    height: 69px;
+    background: url('../images/icon-slides.png') no-repeat 0 0;
+    top:50%;
+    margin-top: -35px;
+    cursor: pointer;
+}
+.site_content .site_slider span.prev {
+    background-position: -83px 0;
+    left: 234px;
+}
+.site_content .site_slider span.next {
+    background-position: -123px 0;
+    right: 0;
+}
+.site_content .site_slider span.prev:hover {
+    background-position: 0 0;
+    left: 234px;
+}
+.site_content .site_slider span.next:hover {
+    background-position: -41px 0;
+    right:0;
+}
+.site_content .slider_item {
+    position: absolute;
+    width: 400px;
+    height: 21px;
+    line-height: 21px;
+    text-align: right;
+    bottom: 20px;
+    right: 30px;
+}
+.slider_item>a {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(255, 255, 255, .4);
+    margin:0 5px;
+    border-radius: 6px;
+    border: 2px solid rgba(255, 255, 255, .3);
+}
 
 
 /* 小米站点内容end */

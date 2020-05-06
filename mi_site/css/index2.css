@@ -1,7 +1,6 @@
 /* 导航栏实现 */
 .header {
     height: 100px;
-
 }
 .header .site_logo {
     float: left;
@@ -18,29 +17,30 @@
     float: left;
     width: 850px;
 }
-.header .site_list ul {
+.header .site_list>ul {
     width: 820px;
     height: 88px;
     padding:12px 0 0 30px;
     font-size: 16px;
 }
-.header .site_list ul li {
+.header .site_list>ul>li {
     float: left;
 }
-.header .site_list ul li a {
+.header .site_list>ul>li>a {
     display: block;
     /* a的高度24px  上26px 左右10px 下38px  上+行高(a)+下==88px*/
     /* 目的就是使a 标签填充满高度 */
     padding: 26px 10px 38px;
     color: #333;
 }
-.header .site_list ul li a:hover {
+.header .site_list>ul>li>a:hover {
     color: #ff6700;
 }
-.header .site_list ul li.site_category {
+.header .site_list>ul>li.site_category {
     position: relative;
+    z-index: 3;
 }
-.header .site_list ul li.site_category .category_list {
+.header .site_list>ul>li.site_category .category_list {
     position: absolute;
     top:88px;
     left:-92px;
@@ -48,8 +48,22 @@
     height: 460px;
     background-color: rgba(0,0,0,0.6);
  }
-
-
+.category_list>li {
+    width: 234px;
+    height: 420px;
+    padding:20px 0;
+}
+.category_list>ul>li {
+    height:42px;
+}
+.category_list>ul>li>a {
+    padding-left: 30px;
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    color:#fff;
+}
 .header .site_search {
     float: right;
     width: 296px;
