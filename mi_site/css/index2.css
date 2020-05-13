@@ -48,6 +48,9 @@
     height: 460px;
     background-color: rgba(0,0,0,0.6);
  }
+ .category_list>ul {
+     padding: 20px 0 ;
+ }
 .category_list>li {
     width: 234px;
     height: 420px;
@@ -57,12 +60,19 @@
     height:42px;
 }
 .category_list>ul>li>a {
+    position: relative;
     padding-left: 30px;
     display: block;
     height: 42px;
     line-height: 42px;
     font-size: 14px;
     color:#fff;
+}
+
+.category_list>ul>li>a>span{
+    position: absolute;
+    right: 20px;
+    
 }
 .header .site_search {
     float: right;
