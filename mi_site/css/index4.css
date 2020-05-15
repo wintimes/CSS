@@ -1,0 +1,122 @@
+/* 主页内容描述 start */
+.content_desc {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+}
+.content_desc .box_hd {
+    height: 58px;
+    position: relative;
+}
+.content_desc .box_hd h2 {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.content_desc .box_hd .more {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.content_desc .box_hd .more a {
+    font-size: 16px;
+    line-height: 58px;
+    color:#424242; 
+}
+.content_desc .box_hd .more a i {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    padding: 4px;
+    margin-left: 8px;
+    background-color: #b0b0b0;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: 2px; 
+}
+.content_desc .box_hd .more:hover a {
+    color: #ff6700;
+}
+.content_desc .box_hd .more:hover a i{
+    background-color: #ff6700;
+}
+.box_bd .row-l {
+    float: left;
+    width: 234px;
+}
+.box_bd .row-r {
+    float: left;
+    width: 992px;
+}
+
+.box_bd .row-l a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.box_bd .row-l a img {
+    width: 234px;
+    height: 614px;
+}
+.box_bd .row-r ul {
+    overflow: hidden;
+}
+.box_bd .row-r ul li {
+    float: left;
+    height: 260px;
+    width: 234px;
+    /* 234px*4 =936px + 14 *4px =992px  */
+    margin-left: 14px;
+    margin-bottom: 14px;
+    padding: 20px 0;
+    background-color: #fff;
+    position: relative;
+}
+.box_bd .row-r ul li .figure {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px;
+    
+}
+.box_bd .row-r ul li .figure a {
+    display: block;
+    
+}
+.box_bd .row-r ul li .figure a img {
+    height: 160px;
+    width: 160px;   
+} 
+.box_bd .row-r ul li .title {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.box_bd .row-r ul li .title a {
+    color: #333;
+}
+.box_bd .row-r ul li .desc {
+    height: 18px;
+    font-size: 14px;
+    text-align: center;
+    color: #b0b0b0;
+    margin: 0 10px 10px;
+    /* 实现省略号的应用 */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.box_bd .row-r ul li .price {
+    text-align: center;
+    color: #ff6700;
+}
+.box_bd .row-r ul li .flag {
+    position: absolute;
+    top: 0;
+    width: 64px;
+    height: 20px;
+    background-color: #83c44e;
+    text-align: center;
+    left: 50%;
+    margin-left: -32px;
+}
+/* 主页内容描述 end */

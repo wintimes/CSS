@@ -56,6 +56,7 @@
 /* 向导样式 start */
 .content_sub {
     margin-top: 18px;
+    overflow: hidden;
 }
 .content_sub .content_channel {
     float: left;
@@ -103,6 +104,21 @@
     height: 170px;
 }
 /* 向导样式 end */
+/* 主页内容 start */
+.content_banner{
+    margin-top: 18px;
+}
+.content_banner a {
+    display: block;
+    width: 1226px;
+    height: 120px;
+}
+.content_banner a img {
+    width: 1226px;
+    height: 120px;
+}
+
+/* 主页内容 end */
 /* 小米站点内容end */
 .clearfix::after {
     content:'';

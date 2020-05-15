@@ -6,6 +6,41 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "677372",
+      "name": "7天",
+      "font_class": "7tian",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "2130462",
+      "name": "礼物",
+      "font_class": "liwu",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "6387768",
+      "name": "维修",
+      "font_class": "weixiu",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "11576520",
+      "name": "15天",
+      "font_class": "tian",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "12623548",
+      "name": "定位",
+      "font_class": "location",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
       "icon_id": "593677",
       "name": "搜索",
       "font_class": "sousuo",
